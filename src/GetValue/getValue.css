@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url(../img/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    outline: none;
+}
+.main button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F9F5EB;
+    color: #000;
+}
